@@ -9,6 +9,7 @@
 
 namespace Chinook.Data
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -21,6 +22,7 @@ namespace Chinook.Data
         }
     
         public int ArtistId { get; set; }
+        
         public string Name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
